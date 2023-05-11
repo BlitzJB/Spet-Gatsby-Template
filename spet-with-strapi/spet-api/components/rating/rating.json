@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_rating_ratings",
+  "info": {
+    "name": "rating",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "bx bxs-star",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/our-recent-works-header",
+      "handler": "our-recent-works-header.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/our-recent-works-header",
+      "handler": "our-recent-works-header.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/our-recent-works-header",
+      "handler": "our-recent-works-header.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

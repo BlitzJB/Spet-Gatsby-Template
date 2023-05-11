@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_feedback_item_feedback_items",
+  "info": {
+    "name": "feedbackItem",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Steve Lucy",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "default": "Lead Developer at Envato",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "feedbackText": {
+      "type": "string",
+      "default": "Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "starRating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "rating.rating"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_why_choose_us_why_choose_uses",
+  "info": {
+    "name": "Why Choose Us",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "flatIcon": {
+      "type": "string",
+      "required": true,
+      "default": "flaticon-team"
+    },
+    "title": {
+      "type": "string",
+      "default": "Proficient & Friendly",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+      "required": true,
+      "maxLength": 120,
+      "minLength": 116
+    }
+  }
+}

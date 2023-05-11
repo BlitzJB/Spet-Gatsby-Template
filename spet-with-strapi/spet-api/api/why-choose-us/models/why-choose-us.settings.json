@@ -1,0 +1,47 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_choose_uses",
+  "info": {
+    "name": "Why Choose Us"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titleText": {
+      "type": "string",
+      "default": "Why Choose Us",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "manImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "structureImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "why-choose-us.why-choose-us"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_pricing_style_one_pricing_style_ones",
+  "info": {
+    "name": "pricingStyleOne",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Basic Plan",
+      "required": true
+    },
+    "dollarSign": {
+      "type": "string",
+      "default": "$",
+      "required": true
+    },
+    "price": {
+      "type": "string",
+      "default": "15.00",
+      "required": true
+    },
+    "duration": {
+      "type": "string",
+      "default": "/Mon",
+      "required": true
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-features.pricing-features"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Select Plan",
+      "required": true
+    },
+    "btnLink": {
+      "type": "string",
+      "default": "/login",
+      "required": true
+    }
+  }
+}

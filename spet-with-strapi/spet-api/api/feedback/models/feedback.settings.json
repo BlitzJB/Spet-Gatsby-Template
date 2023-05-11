@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "feedbacks",
+  "info": {
+    "name": "feedback"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "What users Saying",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "feedbackItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feedback-item.feedback-item"
+    }
+  }
+}

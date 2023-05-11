@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cloud-hosting-services",
+      "handler": "cloud-hosting-services.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cloud-hosting-services",
+      "handler": "cloud-hosting-services.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cloud-hosting-services",
+      "handler": "cloud-hosting-services.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

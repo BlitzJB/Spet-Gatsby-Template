@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_service_list_service_lists",
+  "info": {
+    "name": "serviceList",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "Cloud Databases",
+      "required": true
+    }
+  }
+}

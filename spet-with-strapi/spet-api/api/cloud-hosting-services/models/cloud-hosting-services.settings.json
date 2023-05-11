@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "cloud_hosting_services",
+  "info": {
+    "name": "cloud Hosting Services",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Cloud Hosting Services",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "serviceList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service-list.service-list"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

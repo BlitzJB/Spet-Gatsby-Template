@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_awesome_team_sliders",
+  "info": {
+    "name": "our Awesome Team Slider",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our Awesome Team",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "member": {
+      "type": "component",
+      "repeatable": true,
+      "component": "team-members.team-card"
+    }
+  }
+}

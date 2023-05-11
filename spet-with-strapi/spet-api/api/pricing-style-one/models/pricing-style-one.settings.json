@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_style_ones",
+  "info": {
+    "name": "pricing Style One",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Pricing Plans",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": true
+    },
+    "pricingInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "pricing-style-one.pricing-style-one"
+    }
+  }
+}

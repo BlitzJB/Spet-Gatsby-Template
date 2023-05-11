@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pricing-style-one",
+      "handler": "pricing-style-one.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pricing-style-one",
+      "handler": "pricing-style-one.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pricing-style-one",
+      "handler": "pricing-style-one.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

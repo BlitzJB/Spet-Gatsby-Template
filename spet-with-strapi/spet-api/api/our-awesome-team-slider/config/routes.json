@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/our-awesome-team-slider",
+      "handler": "our-awesome-team-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/our-awesome-team-slider",
+      "handler": "our-awesome-team-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/our-awesome-team-slider",
+      "handler": "our-awesome-team-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

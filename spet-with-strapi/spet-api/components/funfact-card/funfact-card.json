@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_funfact_card_funfact_cards",
+  "info": {
+    "name": "funfactCard",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string",
+      "default": "20K",
+      "required": true
+    },
+    "text": {
+      "type": "string",
+      "default": "Feedback",
+      "required": true
+    }
+  }
+}

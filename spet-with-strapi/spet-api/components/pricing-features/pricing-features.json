@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_pricing_features_pricing_features",
+  "info": {
+    "name": "pricingFeatures",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "default": "5 GB Bandwidth",
+      "required": true
+    }
+  }
+}

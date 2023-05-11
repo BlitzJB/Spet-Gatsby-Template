@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "it_top_features",
+  "info": {
+    "name": "it Top Features",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "featuresCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features-card.features"
+    }
+  }
+}

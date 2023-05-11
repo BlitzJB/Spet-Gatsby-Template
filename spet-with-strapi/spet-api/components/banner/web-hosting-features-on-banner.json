@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_banner_web_hosting_features_on_banners",
+  "info": {
+    "name": "web hosting features on banner",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string",
+      "default": "FREE Hosting For 2 Years",
+      "required": true,
+      "unique": true
+    }
+  }
+}

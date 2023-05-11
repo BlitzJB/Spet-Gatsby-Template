@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_features",
+  "info": {
+    "name": "top features",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "icon": {
+      "type": "string",
+      "default": "bx bx-dollar-circle",
+      "required": true
+    },
+    "headerText": {
+      "type": "string",
+      "default": "Money-back Guarantee",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.",
+      "required": true
+    },
+    "longDescription": {
+      "type": "richtext",
+      "default": "Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "headerText",
+      "required": true
+    }
+  }
+}

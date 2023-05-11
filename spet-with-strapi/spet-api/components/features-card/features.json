@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_features_card_features",
+  "info": {
+    "name": "features",
+    "icon": "arrow-alt-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Code Security",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "default": "bx bx-code-alt",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna.",
+      "required": true
+    }
+  }
+}

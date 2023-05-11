@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "banners",
+  "info": {
+    "name": "hosting Banner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "mainText": {
+      "type": "string",
+      "default": "The Best Web Hosting",
+      "required": true
+    },
+    "hostingFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banner.web-hosting-features-on-banner",
+      "required": true
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    },
+    "priceText": {
+      "type": "string",
+      "default": "Starting at $3.95/month",
+      "required": true
+    }
+  }
+}

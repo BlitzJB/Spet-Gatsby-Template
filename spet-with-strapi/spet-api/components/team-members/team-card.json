@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_team_members_team_cards",
+  "info": {
+    "name": "teamCard",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "default": "Josh Buttler",
+      "required": true
+    },
+    "designation": {
+      "type": "string",
+      "default": "CEO & Founder",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum.",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.social-links"
+    }
+  }
+}

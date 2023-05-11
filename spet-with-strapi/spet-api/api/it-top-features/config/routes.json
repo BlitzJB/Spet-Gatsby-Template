@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/it-top-features",
+      "handler": "it-top-features.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/it-top-features",
+      "handler": "it-top-features.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/it-top-features",
+      "handler": "it-top-features.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

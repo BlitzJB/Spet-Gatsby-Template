@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "it_startup_banner2s",
+  "info": {
+    "name": "It Startup Banner 2",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Built For Developers",
+      "required": true
+    },
+    "shortText": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.",
+      "required": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Get Started",
+      "required": true
+    },
+    "btnUrl": {
+      "type": "string",
+      "default": "/contact",
+      "required": true
+    }
+  }
+}

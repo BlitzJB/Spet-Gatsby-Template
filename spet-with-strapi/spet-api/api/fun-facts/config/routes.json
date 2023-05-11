@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fun-facts",
+      "handler": "fun-facts.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fun-facts",
+      "handler": "fun-facts.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fun-facts",
+      "handler": "fun-facts.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
